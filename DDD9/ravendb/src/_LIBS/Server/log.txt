@@ -1,0 +1,190 @@
+converting method System.OutOfMemoryException:.ctor (string)
+Method System.OutOfMemoryException:.ctor (string) emitted at 0xb6907c28 to 0xb6907c6f (code length 71) [Raven.Server.exe]
+converting method (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr) emitted at 0xb6907c88 to 0xb6907d38 (code length 176) [Raven.Server.exe]
+[0xb75f5b50: 0.00000 0] ENTER: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)([System.OutOfMemoryException:0x58fc0], 0xbf8c94e4, (nil), 0xb6907c28, )
+[0xb75f5b50: 0.00009 1] ENTER: System.OutOfMemoryException:.ctor (string)(this:0x58fc0[System.OutOfMemoryException Raven.Server.exe], [STRING:0x50fa0:Out of memory], )
+converting method System.SystemException:.ctor (string)
+Method System.SystemException:.ctor (string) emitted at 0xb6907d38 to 0xb6907d7f (code length 71) [Raven.Server.exe]
+[0xb75f5b50: 0.00018 2] ENTER: System.SystemException:.ctor (string)(this:0x58fc0[System.OutOfMemoryException Raven.Server.exe], [STRING:0x50fa0:Out of memory], )
+converting method System.Exception:.ctor (string)
+Method System.Exception:.ctor (string) emitted at 0xb6907d90 to 0xb6907dcc (code length 60) [Raven.Server.exe]
+[0xb75f5b50: 0.00027 3] ENTER: System.Exception:.ctor (string)(this:0x58fc0[System.OutOfMemoryException Raven.Server.exe], [STRING:0x50fa0:Out of memory], )
+[0xb75f5b50: 0.00029 3] LEAVE: System.Exception:.ctor (string)
+[0xb75f5b50: 0.00030 2] LEAVE: System.SystemException:.ctor (string)
+[0xb75f5b50: 0.00031 1] LEAVE: System.OutOfMemoryException:.ctor (string)
+[0xb75f5b50: 0.00032 0] LEAVE: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)[OBJECT:(nil)]
+converting method System.NullReferenceException:.ctor (string)
+Method System.NullReferenceException:.ctor (string) emitted at 0xb6907dd0 to 0xb6907e17 (code length 71) [Raven.Server.exe]
+[0xb75f5b50: 0.00045 0] ENTER: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)([System.NullReferenceException:0x58f88], 0xbf8c94e4, (nil), 0xb6907dd0, )
+[0xb75f5b50: 0.00046 1] ENTER: System.NullReferenceException:.ctor (string)(this:0x58f88[System.NullReferenceException Raven.Server.exe], [STRING:0x5af20:A null value was found where an object instance was required], )
+[0xb75f5b50: 0.00048 2] ENTER: System.SystemException:.ctor (string)(this:0x58f88[System.NullReferenceException Raven.Server.exe], [STRING:0x5af20:A null value was found where an object instance was required], )
+[0xb75f5b50: 0.00050 3] ENTER: System.Exception:.ctor (string)(this:0x58f88[System.NullReferenceException Raven.Server.exe], [STRING:0x5af20:A null value was found where an object instance was required], )
+[0xb75f5b50: 0.00051 3] LEAVE: System.Exception:.ctor (string)
+[0xb75f5b50: 0.00052 2] LEAVE: System.SystemException:.ctor (string)
+[0xb75f5b50: 0.00053 1] LEAVE: System.NullReferenceException:.ctor (string)
+[0xb75f5b50: 0.00054 0] LEAVE: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)[OBJECT:(nil)]
+converting method System.StackOverflowException:.ctor (string)
+Method System.StackOverflowException:.ctor (string) emitted at 0xb6907e18 to 0xb6907e55 (code length 61) [Raven.Server.exe]
+[0xb75f5b50: 0.00090 0] ENTER: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)([System.StackOverflowException:0x58f50], 0xbf8c94e4, (nil), 0xb6907e18, )
+[0xb75f5b50: 0.00092 1] ENTER: System.StackOverflowException:.ctor (string)(this:0x58f50[System.StackOverflowException Raven.Server.exe], [STRING:0x5bf50:The requested operation caused a stack overflow.], )
+[0xb75f5b50: 0.00094 2] ENTER: System.SystemException:.ctor (string)(this:0x58f50[System.StackOverflowException Raven.Server.exe], [STRING:0x5bf50:The requested operation caused a stack overflow.], )
+[0xb75f5b50: 0.00096 3] ENTER: System.Exception:.ctor (string)(this:0x58f50[System.StackOverflowException Raven.Server.exe], [STRING:0x5bf50:The requested operation caused a stack overflow.], )
+[0xb75f5b50: 0.00098 3] LEAVE: System.Exception:.ctor (string)
+[0xb75f5b50: 0.00099 2] LEAVE: System.SystemException:.ctor (string)
+[0xb75f5b50: 0.00100 1] LEAVE: System.StackOverflowException:.ctor (string)
+[0xb75f5b50: 0.00101 0] LEAVE: (wrapper runtime-invoke) <Module>:runtime_invoke_void__this___object (object,intptr,intptr,intptr)[OBJECT:(nil)]
+converting method Raven.Server.Program:Main (string[])
+Method Raven.Server.Program:Main (string[]) emitted at 0xb6907e70 to 0xb690801f (code length 431) [Raven.Server.exe]
+converting method (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr) emitted at 0xb6908068 to 0xb6908112 (code length 170) [Raven.Server.exe]
+[0xb75f5b50: 0.01380 0] ENTER: (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)((nil), 0xbf8c95bc, (nil), 0xb6907e70, )
+[0xb75f5b50: 0.01384 1] ENTER: Raven.Server.Program:Main (string[])(0x54f60, )
+converting method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)
+Method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr) emitted at 0xb6908120 to 0xb69081ae (code length 142) [Raven.Server.exe]
+[0xb75f5b50: 0.01393 2] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)(0x927b638, )
+[0xb75f5b50: 0.01395 2] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)[Raven.Server.RavenService:0x57f90]
+converting method (wrapper remoting-invoke-with-check) Raven.Server.RavenService:.ctor ()
+Method (wrapper remoting-invoke-with-check) Raven.Server.RavenService:.ctor () emitted at 0xb69081b0 to 0xb6908209 (code length 89) [Raven.Server.exe]
+[0xb75f5b50: 0.01404 2] ENTER: (wrapper remoting-invoke-with-check) Raven.Server.RavenService:.ctor ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+converting method Raven.Server.RavenService:.ctor ()
+Method Raven.Server.RavenService:.ctor () emitted at 0xb6908228 to 0xb6908278 (code length 80) [Raven.Server.exe]
+[0xb75f5b50: 0.01412 3] ENTER: Raven.Server.RavenService:.ctor ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+converting method System.ServiceProcess.ServiceBase:.ctor ()
+Method System.ServiceProcess.ServiceBase:.ctor () emitted at 0xb6908290 to 0xb69082d3 (code length 67) [Raven.Server.exe]
+[0xb75f5b50: 0.01429 4] ENTER: System.ServiceProcess.ServiceBase:.ctor ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+converting method System.ComponentModel.Component:.ctor ()
+Method System.ComponentModel.Component:.ctor () emitted at 0xb69082e0 to 0xb690833a (code length 90) [Raven.Server.exe]
+[0xb75f5b50: 0.01450 5] ENTER: System.ComponentModel.Component:.ctor ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+converting method (wrapper alloc) object:Alloc (intptr)
+Method (wrapper alloc) object:Alloc (intptr) emitted at 0xb6908358 to 0xb6908409 (code length 177) [Raven.Server.exe]
+[0xb75f5b50: 0.01463 6] ENTER: (wrapper alloc) object:Alloc (intptr)(0x9279ffc, )
+[0xb75f5b50: 0.01464 7] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)(0x9279ffc, )
+[0xb75f5b50: 0.01466 7] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)[System.Object:0x5cff0]
+[0xb75f5b50: 0.01467 6] LEAVE: (wrapper alloc) object:Alloc (intptr)[System.Object:0x5cff0]
+converting method System.MarshalByRefObject:.ctor ()
+Method System.MarshalByRefObject:.ctor () emitted at 0xb6908410 to 0xb690843c (code length 44) [Raven.Server.exe]
+[0xb75f5b50: 0.01472 6] ENTER: System.MarshalByRefObject:.ctor ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+[0xb75f5b50: 0.01474 6] LEAVE: System.MarshalByRefObject:.ctor ()
+[0xb75f5b50: 0.01475 5] LEAVE: System.ComponentModel.Component:.ctor ()
+[0xb75f5b50: 0.01476 4] LEAVE: System.ServiceProcess.ServiceBase:.ctor ()
+converting method Raven.Server.RavenService:InitializeComponent ()
+Method Raven.Server.RavenService:InitializeComponent () emitted at 0xb6908448 to 0xb69084ad (code length 101) [Raven.Server.exe]
+[0xb75f5b50: 0.01517 4] ENTER: Raven.Server.RavenService:InitializeComponent ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+[0xb75f5b50: 0.01518 5] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)(0x927ba28, )
+[0xb75f5b50: 0.01520 5] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)[System.ComponentModel.Container:0x3be20]
+converting method System.ComponentModel.Container:.ctor ()
+Method System.ComponentModel.Container:.ctor () emitted at 0xb69084c8 to 0xb690851c (code length 84) [Raven.Server.exe]
+[0xb75f5b50: 0.01568 5] ENTER: System.ComponentModel.Container:.ctor ()(this:0x3be20[System.ComponentModel.Container Raven.Server.exe], )
+converting method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_fast (intptr)
+Method (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_fast (intptr) emitted at 0xb6908528 to 0xb69085b6 (code length 142) [Raven.Server.exe]
+[0xb75f5b50: 0.01576 6] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_fast (intptr)(0x927bae0, )
+[0xb75f5b50: 0.01579 6] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_fast (intptr)[System.Collections.Generic.List`1:0x61fd8]
+converting shared method System.Collections.Generic.List`1:.ctor ()
+Method System.Collections.Generic.List`1:.ctor () emitted at 0xb69085b8 to 0xb690861a (code length 98) [Raven.Server.exe]
+converting shared method System.Collections.Generic.List`1:.cctor ()
+Method System.Collections.Generic.List`1:.cctor () emitted at 0xb6908640 to 0xb69086b9 (code length 121) [Raven.Server.exe]
+converting method (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr) emitted at 0xb69086d8 to 0xb6908766 (code length 142) [Raven.Server.exe]
+[0xb75f5b50: 0.01614 6] ENTER: (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)((nil), (nil), 0xbf8c923c, 0xb69086c8, )
+[0xb75f5b50: 0.01616 7] ENTER: System.Collections.Generic.List`1:.cctor ()()
+converting method (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int)
+Method (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int) emitted at 0xb6908768 to 0xb69087f9 (code length 145) [Raven.Server.exe]
+[0xb75f5b50: 0.01628 8] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int)(0x927bcd8, 0, )
+[0xb75f5b50: 0.01630 8] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int)[System.ComponentModel.IComponent[]:0x3cda0]
+[0xb75f5b50: 0.01632 7] LEAVE: System.Collections.Generic.List`1:.cctor ()
+[0xb75f5b50: 0.01633 6] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb75f5b50: 0.01635 6] ENTER: System.Collections.Generic.List`1:.ctor ()(this:0x61fd8[System.Collections.Generic.List`1 Raven.Server.exe], )
+[0xb75f5b50: 0.01637 6] LEAVE: System.Collections.Generic.List`1:.ctor ()
+[0xb75f5b50: 0.01638 5] LEAVE: System.ComponentModel.Container:.ctor ()
+converting method System.ServiceProcess.ServiceBase:set_ServiceName (string)
+Method System.ServiceProcess.ServiceBase:set_ServiceName (string) emitted at 0xb6908808 to 0xb6908877 (code length 111) [Raven.Server.exe]
+[0xb75f5b50: 0.01651 5] ENTER: System.ServiceProcess.ServiceBase:set_ServiceName (string)(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], [STRING:0x50f78:RavenService], )
+[0xb75f5b50: 0.01653 5] LEAVE: System.ServiceProcess.ServiceBase:set_ServiceName (string)
+[0xb75f5b50: 0.01654 4] LEAVE: Raven.Server.RavenService:InitializeComponent ()
+[0xb75f5b50: 0.01655 3] LEAVE: Raven.Server.RavenService:.ctor ()
+[0xb75f5b50: 0.01657 2] LEAVE: (wrapper remoting-invoke-with-check) Raven.Server.RavenService:.ctor ()
+converting method System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase)
+Method System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase) emitted at 0xb6908878 to 0xb69088e3 (code length 107) [Raven.Server.exe]
+[0xb75f5b50: 0.01712 2] ENTER: System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase)([Raven.Server.RavenService:0x57f90], )
+[0xb75f5b50: 0.01714 3] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int)(0x927be20, 1, )
+[0xb75f5b50: 0.01715 3] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_array_new_specific (intptr,int)[System.ServiceProcess.ServiceBase[]:0x54f18]
+converting method (wrapper stelemref) object:virt_stelemref_complex (intptr,object)
+Method (wrapper stelemref) object:virt_stelemref_complex (intptr,object) emitted at 0xb6908900 to 0xb6908995 (code length 149) [Raven.Server.exe]
+[0xb75f5b50: 0.01757 3] ENTER: (wrapper stelemref) object:virt_stelemref_complex (intptr,object)(this:0x54f18[System.ServiceProcess.ServiceBase[] Raven.Server.exe], (nil), [Raven.Server.RavenService:0x57f90], )
+converting method (wrapper managed-to-native) object:__icall_wrapper_mono_object_isinst (object,intptr)
+Method (wrapper managed-to-native) object:__icall_wrapper_mono_object_isinst (object,intptr) emitted at 0xb6908998 to 0xb6908a29 (code length 145) [Raven.Server.exe]
+[0xb75f5b50: 0.01766 4] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_isinst (object,intptr)([Raven.Server.RavenService:0x57f90], 0x92d3324, )
+[0xb75f5b50: 0.01768 4] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_isinst (object,intptr)[Raven.Server.RavenService:0x57f90]
+[0xb75f5b50: 0.01769 3] LEAVE: (wrapper stelemref) object:virt_stelemref_complex (intptr,object)
+converting method System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase[])
+Method System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase[]) emitted at 0xb6908a30 to 0xb6908a79 (code length 73) [Raven.Server.exe]
+[0xb75f5b50: 0.01786 3] ENTER: System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase[])(0x54f18, )
+[0xb75f5b50: 0.01788 3] LEAVE: System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase[])
+[0xb75f5b50: 0.01790 2] LEAVE: System.ServiceProcess.ServiceBase:Run (System.ServiceProcess.ServiceBase)
+[0xb75f5b50: 0.01791 1] LEAVE: Raven.Server.Program:Main (string[])
+[0xb75f5b50: 0.01792 0] LEAVE: (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr)[OBJECT:(nil)]
+converting method (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)
+Method (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr) emitted at 0xb6908a80 to 0xb6908b28 (code length 168) [Raven.Server.exe]
+[0xb68a9b70: 0.02940 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([System.ComponentModel.Container:0x3be20], (nil), 0xb68a921c, (nil), )
+converting method System.ComponentModel.Container:Finalize ()
+Method System.ComponentModel.Container:Finalize () emitted at 0xb6908b28 to 0xb6908b7f (code length 87) [Raven.Server.exe]
+[0xb68a9b70: 0.02953 1] ENTER: System.ComponentModel.Container:Finalize ()(this:0x3be20[System.ComponentModel.Container Raven.Server.exe], )
+converting method System.ComponentModel.Container:Dispose (bool)
+Method System.ComponentModel.Container:Dispose (bool) emitted at 0xb6908b80 to 0xb6908c1f (code length 159) [Raven.Server.exe]
+[0xb68a9b70: 0.02971 2] ENTER: System.ComponentModel.Container:Dispose (bool)(this:0x3be20[System.ComponentModel.Container Raven.Server.exe], 0, )
+[0xb68a9b70: 0.02973 2] LEAVE: System.ComponentModel.Container:Dispose (bool)
+[0xb68a9b70: 0.02974 1] LEAVE: System.ComponentModel.Container:Finalize ()
+[0xb68a9b70: 0.02975 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb68a9b70: 0.02978 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([System.Runtime.Remoting.Contexts.Context:0x57fc0], (nil), 0xb68a921c, (nil), )
+converting method System.Runtime.Remoting.Contexts.Context:Finalize ()
+Method System.Runtime.Remoting.Contexts.Context:Finalize () emitted at 0xb6908c30 to 0xb6908c76 (code length 70) [Raven.Server.exe]
+[0xb68a9b70: 0.02987 1] ENTER: System.Runtime.Remoting.Contexts.Context:Finalize ()(this:0x57fc0[System.Runtime.Remoting.Contexts.Context Raven.Server.exe], )
+[0xb68a9b70: 0.02988 1] LEAVE: System.Runtime.Remoting.Contexts.Context:Finalize ()
+[0xb68a9b70: 0.02989 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
+converting method System.Threading.Thread:.cctor ()
+Method System.Threading.Thread:.cctor () emitted at 0xb6908c78 to 0xb6908cbd (code length 69) [Raven.Server.exe]
+[0xb68a9b70: 0.02998 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)((nil), (nil), 0xb68a91ac, 0xb6908c78, )
+[0xb68a9b70: 0.03000 1] ENTER: System.Threading.Thread:.cctor ()()
+[0xb68a9b70: 0.03001 2] ENTER: (wrapper alloc) object:Alloc (intptr)(0x9279ffc, )
+[0xb68a9b70: 0.03003 3] ENTER: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)(0x9279ffc, )
+[0xb68a9b70: 0.03004 3] LEAVE: (wrapper managed-to-native) object:__icall_wrapper_mono_object_new_specific (intptr)[System.Object:0x5cfe8]
+[0xb68a9b70: 0.03005 2] LEAVE: (wrapper alloc) object:Alloc (intptr)[System.Object:0x5cfe8]
+[0xb68a9b70: 0.03007 1] LEAVE: System.Threading.Thread:.cctor ()
+[0xb68a9b70: 0.03008 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_void (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb68a9b70: 0.03009 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([System.Threading.Thread:0x55fc8], (nil), 0xb68a921c, (nil), )
+converting method System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()
+Method System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize () emitted at 0xb6908cc0 to 0xb6908d06 (code length 70) [Raven.Server.exe]
+[0xb68a9b70: 0.03018 1] ENTER: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()(this:0x55fc8[System.Threading.Thread Raven.Server.exe], )
+[0xb68a9b70: 0.03019 1] LEAVE: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()
+[0xb68a9b70: 0.03020 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb68a9b70: 0.03022 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([System.Threading.InternalThread:0x53f20], (nil), 0xb68a921c, (nil), )
+converting method System.Threading.InternalThread:Finalize ()
+Method System.Threading.InternalThread:Finalize () emitted at 0xb6908d08 to 0xb6908d6c (code length 100) [Raven.Server.exe]
+[0xb68a9b70: 0.03034 1] ENTER: System.Threading.InternalThread:Finalize ()(this:0x53f20[System.Threading.InternalThread Raven.Server.exe], )
+converting method (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread*,intptr)
+Method (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread*,intptr) emitted at 0xb6908d88 to 0xb6908e2d (code length 165) [Raven.Server.exe]
+[0xb68a9b70: 0.03044 2] ENTER: (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread*,intptr)(0x53f20, 0x403, )
+[0xb68a9b70: 0.03046 2] LEAVE: (wrapper managed-to-native) System.Threading.InternalThread:Thread_free_internal (System.Threading.InternalThread*,intptr)
+[0xb68a9b70: 0.03047 2] ENTER: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()(this:0x53f20[System.Threading.InternalThread Raven.Server.exe], )
+[0xb68a9b70: 0.03049 2] LEAVE: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()
+[0xb68a9b70: 0.03050 1] LEAVE: System.Threading.InternalThread:Finalize ()
+[0xb68a9b70: 0.03052 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb68a9b70: 0.03053 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([Raven.Server.RavenService:0x57f90], (nil), 0xb68a921c, (nil), )
+converting method System.ComponentModel.Component:Finalize ()
+Method System.ComponentModel.Component:Finalize () emitted at 0xb6908e30 to 0xb6908e87 (code length 87) [Raven.Server.exe]
+[0xb68a9b70: 0.03062 1] ENTER: System.ComponentModel.Component:Finalize ()(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], )
+converting method Raven.Server.RavenService:Dispose (bool)
+Method Raven.Server.RavenService:Dispose (bool) emitted at 0xb6908e88 to 0xb6908f0b (code length 131) [Raven.Server.exe]
+[0xb68a9b70: 0.03074 2] ENTER: Raven.Server.RavenService:Dispose (bool)(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], 0, )
+converting method System.ServiceProcess.ServiceBase:Dispose (bool)
+Method System.ServiceProcess.ServiceBase:Dispose (bool) emitted at 0xb6908f18 to 0xb6908f44 (code length 44) [Raven.Server.exe]
+[0xb68a9b70: 0.03080 3] ENTER: System.ServiceProcess.ServiceBase:Dispose (bool)(this:0x57f90[Raven.Server.RavenService Raven.Server.exe], 0, )
+[0xb68a9b70: 0.03081 3] LEAVE: System.ServiceProcess.ServiceBase:Dispose (bool)
+[0xb68a9b70: 0.03082 2] LEAVE: Raven.Server.RavenService:Dispose (bool)
+[0xb68a9b70: 0.03083 1] LEAVE: System.ComponentModel.Component:Finalize ()
+[0xb68a9b70: 0.03085 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
+[0xb68a9b70: 0.03086 0] ENTER: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)([System.Threading.Thread:0x55fa0], (nil), 0xb68a921c, (nil), )
+[0xb68a9b70: 0.03088 1] ENTER: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()(this:0x55fa0[System.Threading.Thread Raven.Server.exe], )
+[0xb68a9b70: 0.03089 1] LEAVE: System.Runtime.ConstrainedExecution.CriticalFinalizerObject:Finalize ()
+[0xb68a9b70: 0.03090 0] LEAVE: (wrapper runtime-invoke) object:runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr)[OBJECT:(nil)]
